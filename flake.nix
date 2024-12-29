@@ -11,7 +11,7 @@
 	  system = "x86_64-linux";
 	in {
       nixosConfigurations.default = lib.nixosSystem {
-  	    inherit system;
+        inherit system;
         specialArgs = {inherit inputs;};
         modules = [ ./configuration.nix ];
       };
