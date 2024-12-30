@@ -113,6 +113,13 @@
   pulseaudio
   brightnessctl
   xss-lock
+  lua51Packages.lua
+  luajitPackages.luarocks
+  ];
+
+  # Fonts
+  fonts.packages = with pkgs; [
+    nerd-fonts.hack
   ];
 
   # Set neovim as default editor and alias it with vim
@@ -122,7 +129,7 @@
   # Helpful Aliases
   programs.bash.shellAliases = {
     vim = "nvim";
-    edit = "nvim /etc/nixos/configuration.nix";
+    edit = "nvim /home/chs/Config/configuration.nix";
     rebuild = "sudo nixos-rebuild switch --flake /home/chs/Config#default";
   };
 
