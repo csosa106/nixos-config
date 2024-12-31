@@ -6,10 +6,10 @@
   };
 
   outputs = { self, nixpkgs, ... }@inputs:
-	let 
-	  lib = nixpkgs.lib;
-	  system = "x86_64-linux";
-	in {
+    let 
+      lib = nixpkgs.lib;
+      system = "x86_64-linux";
+    in {
       nixosConfigurations.default = lib.nixosSystem {
         inherit system;
         specialArgs = {inherit inputs;};
