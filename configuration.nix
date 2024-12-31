@@ -113,8 +113,6 @@
   pulseaudio
   brightnessctl
   xss-lock
-  lua51Packages.lua
-  luajitPackages.luarocks
   ];
 
   # Fonts
