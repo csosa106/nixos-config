@@ -113,6 +113,7 @@
   pulseaudio
   brightnessctl
   xss-lock
+  networkmanagerapplet
   ];
 
   # Fonts
