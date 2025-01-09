@@ -92,7 +92,7 @@
   programs.firefox.enable = true;
   environment.systemPackages = with pkgs; [
   git
-  python313
+  python312
   virtualenv
   direnv
   htop
