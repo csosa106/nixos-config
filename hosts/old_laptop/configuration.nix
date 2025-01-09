@@ -129,8 +129,8 @@
   # Helpful Aliases
   programs.bash.shellAliases = {
     vim = "nvim";
-    edit = "nvim /home/chs/Config/configuration.nix";
-    rebuild = "sudo nixos-rebuild switch --flake /home/chs/Config#default";
+    edit = "nvim /home/chs/Config/hosts/old_laptop/configuration.nix";
+    rebuild = "sudo nixos-rebuild switch --flake /home/chs/Config#old_laptop";
   };
 
   # Stop X11 from asking password

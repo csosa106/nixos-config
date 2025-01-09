@@ -10,10 +10,15 @@
       lib = nixpkgs.lib;
       system = "x86_64-linux";
     in {
-      nixosConfigurations.default = lib.nixosSystem {
+      nixosConfigurations.laptop = lib.nixosSystem {
         inherit system;
         specialArgs = {inherit inputs;};
-        modules = [ ./configuration.nix ];
+        modules = [ ./hosts/laptop/configuration.nix ];
+      };
+      nixosConfigurations.old_laptop = lib.nixosSystem {
+        inherit system;
+        specialArgs = {inherit inputs;};
+        modules = [ ./hosts/old_laptop/configuration.nix ];
       };
   };
 }
