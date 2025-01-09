@@ -114,6 +114,7 @@
   brightnessctl
   xss-lock
   networkmanagerapplet
+  nodejs_22
   ];
 
   # Fonts
