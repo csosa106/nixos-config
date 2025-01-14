@@ -114,6 +114,7 @@
   xss-lock
   networkmanagerapplet
   nodejs_22
+  scrot
   ];
 
   # Fonts
