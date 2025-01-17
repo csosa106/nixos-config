@@ -114,7 +114,7 @@
   xss-lock
   networkmanagerapplet
   nodejs_22
-  typescript
+  nodePackages_latest.ts-node
   scrot
   ];
 
