@@ -57,6 +57,9 @@
     variant = "";
   };
 
+  # Swap caps and escape
+  services.xserver.xkb.options = "caps:escape";
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
