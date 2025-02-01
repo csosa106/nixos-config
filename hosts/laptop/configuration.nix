@@ -119,6 +119,7 @@
   nodejs_22
   scrot
   unzip
+  google-chrome
   ];
 
   # Fonts
