@@ -118,6 +118,7 @@
   networkmanagerapplet
   nodejs_22
   scrot
+  unzip
   ];
 
   # Fonts
