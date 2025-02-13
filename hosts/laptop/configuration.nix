@@ -121,6 +121,7 @@
   unzip
   google-chrome
   pnpm
+  code-cursor
   ];
 
   # Fonts
