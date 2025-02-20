@@ -120,7 +120,7 @@
   scrot
   unzip
   google-chrome
-  pnpm
+  pnpm_10
   code-cursor
   ];
 
