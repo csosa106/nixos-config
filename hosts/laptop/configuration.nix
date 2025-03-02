@@ -120,8 +120,9 @@
   scrot
   unzip
   google-chrome
-  pnpm_10
+  pnpm
   code-cursor
+  zip
   ];
 
   # Fonts
