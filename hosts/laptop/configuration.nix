@@ -122,6 +122,7 @@
   google-chrome
   pnpm
   code-cursor
+  docker
   zip
   ];
 
