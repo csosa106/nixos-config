@@ -124,6 +124,10 @@
   code-cursor
   docker
   zip
+  gcc
+  prisma
+  prisma-engines
+  openssl
   ];
 
   # Fonts
